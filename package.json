@@ -139,7 +139,7 @@
     "stream-browserify": "^2.0.2",
     "stream-shift": "^1.0.0",
     "style-loader": "^0.23.1",
-    "terser": "^3.17.0",
+    "terser": "^4.8.1",
     "uglifyjs-webpack-plugin": "^2.1.2"
   },
   "devDependencies": {
