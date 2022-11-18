@@ -145,9 +145,9 @@
   "devDependencies": {
     "@babel/preset-env": "^7.3.4",
     "eslint": "^5.15.3",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
   "repository": {
