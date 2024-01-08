@@ -24,7 +24,7 @@
     "browserify-cipher": "^1.0.1",
     "browserify-des": "^1.0.2",
     "browserify-rsa": "^4.0.1",
-    "browserify-sign": "^4.0.4",
+    "browserify-sign": "^4.2.2",
     "browserify-zlib": "^0.2.0",
     "buffer": "^4.9.1",
     "caniuse-lite": "^1.0.30000997",
