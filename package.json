@@ -103,7 +103,7 @@
     "path-browserify": "^0.0.0",
     "path-dirname": "^1.0.2",
     "path-is-absolute": "^1.0.1",
-    "path-parse": "^1.0.6",
+    "path-parse": "^1.0.7",
     "pbkdf2": "^3.0.17",
     "pify": "^4.0.1",
     "postcss": "^7.0.14",
