@@ -1,14 +1,19 @@
 /* eslint-disable no-undef */
 const path = require('path');
 
+/*
+    Check out the link: https://webpack.js.org/configuration/dev-server/
+    for more settings.
+*/
 module.exports = {
     devServer: {
-        contentBase: path.resolve(__dirname, "dist"),
-        publicPath: "/",
+        static: {
+            directory: path.join(__dirname, 'dist'),
+            // publicPath: '/dist'
+        },
         host: 'localhost',
         port: 8081,
-        // compress: true,
-        inline: true,
+        compress: true,
         hot: true
     }
 };

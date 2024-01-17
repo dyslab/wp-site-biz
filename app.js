@@ -7,7 +7,7 @@ const app = express();
 
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'server', 'views'));
-app.use('/dist', express.static(config.devServer.contentBase));
+app.use('/dist', express.static(config.devServer.static.directory));
 
 app.get('/', (req, res) => {
   res.render('index', { title:'INDEX' });
@@ -29,8 +29,7 @@ app.use(function (err, req, res, next) {
   res.render('error', { title: 'ERROR' });
 })
 
-console.log('Web Server Started.');
-console.log(`Link: [http://localhost:${config.devServer.port}]`);
-console.log(`Ctrl+C to Exit...`);
+console.log(`Web Server Started. Click Link: [http://localhost:${config.devServer.port}/dist/]\n`);
+console.log(`Ctrl + C to Exit...\n`);
 
 app.listen(config.devServer.port);
