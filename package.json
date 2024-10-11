@@ -35,7 +35,7 @@
     "des.js": "^1.0.0",
     "diffie-hellman": "^5.0.3",
     "duplexify": "^3.7.1",
-    "elliptic": "^6.5.4",
+    "elliptic": "^6.5.7",
     "es-abstract": "^1.13.0",
     "es-to-primitive": "^1.2.0",
     "esrecurse": "^4.2.1",
