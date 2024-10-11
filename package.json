@@ -1,6 +1,6 @@
 {
   "name": "wp-site-biz",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "Webpack small business website initial project ☀️",
   "main": "webpack.config.js",
   "scripts": {

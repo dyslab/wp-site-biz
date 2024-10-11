@@ -29,7 +29,7 @@ app.use(function (err, req, res, next) {
   res.render('error', { title: 'ERROR' });
 })
 
-console.log(`Web Server Started. Click Link: [http://localhost:${config.devServer.port}/dist/]\n`);
-console.log(`Ctrl + C to Exit...\n`);
+console.log(`\nWeb Server Started. Click Link \x1b[36;1mhttp://localhost:${config.devServer.port}/dist/\x1b[0m\n`);
+console.log(`\x1b[33;1mCtrl + C\x1b[0m to Exit...\n`);
 
 app.listen(config.devServer.port);
