@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   next(createError(404));
-})
+});
 
 // error handler
 app.use(function (err, req, res, next) {
@@ -27,7 +27,7 @@ app.use(function (err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error', { title: 'ERROR' });
-})
+});
 
 console.log(`\nWeb Server Started. Click Link \x1b[36;1mhttp://localhost:${config.devServer.port}/dist/\x1b[0m\n`);
 console.log(`\x1b[33;1mCtrl + C\x1b[0m to Exit...\n`);

@@ -1,7 +1,6 @@
 const rulesConfig = require('./webpack.rules.config');
 const devServerConfig = require('./webpack.server.config');
 const buildFiles = require('./webpack.build.files.index');
-// const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
 	module: {

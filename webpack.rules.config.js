@@ -24,22 +24,6 @@ module.exports = [
         test: /\.js$/
     },
     {
-        test: /\.css$/,
-
-        use: [
-            {
-                loader: 'style-loader',
-
-                options: {
-                    sourceMap: true
-                }
-            },
-            {
-                loader: 'css-loader'
-            }
-        ]
-    },
-    {
         test: /\.pug$/,
 
         use: [
