@@ -10,6 +10,12 @@ Webpack 静态网站生成演示项目，可适用于中小型企业网站。
 
 另参见：[新闻页面新增与维护说明](src/news/README.md)
 
+## Install Dependencies
+
+```bash
+npm install
+```
+
 ## Local Web Server Hosting
 
 ```bash
